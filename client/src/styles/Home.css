@@ -1,0 +1,71 @@
+.contain {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 42px;
+}
+
+.logo_name {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.login {
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #00FFF6;
+    width: 170px;
+    border: 0;
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 42px;
+    margin-top: 88px;
+}
+
+.tagline {
+    font-size: 46px;
+    font-weight: 700;
+    color: #fff;
+    width: 718px;
+}
+
+.life_img {
+    width: 552px;
+    margin-top: -88px;
+}
+
+.circle {
+    background-color: #00FFF6;
+    border-radius: 50%;
+    padding: 22px 26px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.3s ease-in-out;
+    outline: none;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+}
+
+.pop {
+    transform: scale(1.2);
+}
+
+.chat {
+    width: 60px;
+}
